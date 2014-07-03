@@ -6,7 +6,7 @@
         options.path = options.path || '/';
 
         var cookie = [data.key, '=', JSON.stringify(data.value), '; domain=.', window.location.hostname, '; path=', options.path, ';'].join('');
-        document.cookie;
+        document.cookie = cookie;
     };
 
     SimpleCookie.get = function (key) {
