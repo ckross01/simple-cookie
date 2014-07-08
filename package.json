@@ -1,0 +1,28 @@
+{
+  "name": "simple-cookie",
+  "version": "0.0.0",
+  "description": "simple cookie manager",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.20.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ckross01/simple-cookie.git"
+  },
+  "keywords": [
+    "cookie"
+  ],
+  "author": "Chris Ross",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ckross01/simple-cookie/issues"
+  }
+}
