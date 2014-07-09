@@ -4,11 +4,16 @@
   "description": "simple cookie manager",
   "main": "index.js",
   "directories": {
-    "test": "tests"
+    "test": "test"
   },
   "dependencies": {},
   "devDependencies": {
-    "mocha": "~1.20.1"
+    "mocha": "~1.20.1",
+    "gulp": "~3.8.5",
+    "chai": "~1.9.1",
+    "gulp-rename": "~1.2.0",
+    "gulp-uglify": "~0.3.1",
+    "gulp-jshint": "~1.7.0"
   },
   "scripts": {
     "test": "mocha"
