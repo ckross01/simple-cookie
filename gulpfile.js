@@ -4,14 +4,13 @@ var gulp = require('gulp'),
     rename = require('gulp-rename');
 
 gulp.task('lint', function() {
-   return gulp.src('js/*.js')
+   return gulp.src('src/*.js')
        .pipe(jshint())
        .pipe(jshint.reporter('default'));
 });
 
 gulp.task('scripts', function() {
     return gulp.src('src/*.js')
-        .pipe(gulp.dest('dist'))
         .pipe(rename('simplecookie.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('dist'));
